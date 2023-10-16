@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-inr main(void)
+int main(void)
 {
 	int n;
 	n = 402;
