@@ -9,6 +9,6 @@ int main(void)
 	char *str;
 	
 	str = " I do not fear computers. I fear the Lack of them - Isaac Asimov";
-	print-rev(str);
+	print_rev(str);
 	return (0);
 }
