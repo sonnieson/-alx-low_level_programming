@@ -4,7 +4,7 @@
 /**
  * print_diagsums - Entry point
  * @a: input
- * @sizw: input
+ * @size: input
  * Return: Always 0 (success)
  */
 void print_diagsums(int *a, int size)
@@ -18,7 +18,7 @@ void print_diagsums(int *a, int size)
 	{
 		sum1 = sum1 + a[y * size + y];
 	}
-	for (y = size -1; y >= 0; y--)
+	for (y = size - 1 ; y >= 0 ; y--)
 	{
 		sum2 += a[y * size + (size - y - 1)];
 	}
