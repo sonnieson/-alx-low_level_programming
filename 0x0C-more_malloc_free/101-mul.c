@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -26,7 +27,7 @@ int is_digit(char *s)
  *
  * Return: the length of the string
  */
-int _strlen(char *s)
+int  _strlen(char *s)
 {
 	int i = 0;
 
@@ -38,7 +39,7 @@ int _strlen(char *s)
 }
 
 /**
- * errors - handles errors for main
+ * errors - handles errors for main.h
  */
 void errors(void)
 {
